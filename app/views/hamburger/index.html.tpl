@@ -9,9 +9,7 @@
         <th>Price</th>
     </tr>
     </thead>
-
     <tbody>
-
     	[[ for hamburger in @hamburgers ]]
 			<td>[[= hamburger.name ]]</td>
 			<td>[[= hamburger.description ]]</td>
